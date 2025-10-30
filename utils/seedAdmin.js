@@ -1,4 +1,3 @@
-// utils/seedAdmin.js
 require('dotenv').config();
 const connectDB = require('../config/db');
 const User = require('../models/User');

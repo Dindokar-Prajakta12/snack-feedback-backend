@@ -3,7 +3,6 @@ const router = express.Router();
 const User = require('../models/User');
 const generateToken = require('../utils/generateToken');
 
-// 📦 Register
 router.post('/register', async (req, res) => {
   try {
     const { username, email, password } = req.body;
